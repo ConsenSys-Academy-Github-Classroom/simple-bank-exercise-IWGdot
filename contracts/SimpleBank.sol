@@ -109,6 +109,5 @@ contract SimpleBank {
         emit LogWithdrawal(msg.sender, withdrawAmount, balances[msg.sender]);
         }
     return balances[msg.sender];
-        }
     }
 }
